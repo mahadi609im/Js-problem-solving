@@ -59,8 +59,6 @@ console.log(outputD)
 // Exp: 10 days → 1 week 3 days
 
 
-
-
 //////////// Problem 5: BMI Calculator ////////////
 //Formula: bmi = weight(kg) / height(m)^2
 
