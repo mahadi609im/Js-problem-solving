@@ -7,4 +7,5 @@ let uniqueValue = nums.reduce((acc, curr) => {
   return acc;
 }, []);
 console.log(uniqueValue);
+
 // Output: [1, 2, 3, 4, 5]
