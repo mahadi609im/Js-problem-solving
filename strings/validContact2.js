@@ -19,6 +19,6 @@ function validContact(contact) {
   return output;
 }
 
-let contactNum = '01575560';
+let contactNum = '01576445560';
 let output = validContact(contactNum);
 console.log(output);
