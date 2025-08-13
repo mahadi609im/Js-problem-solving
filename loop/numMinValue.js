@@ -6,9 +6,10 @@ let maxValue = list[1];
 for (let i of list) {
   if (minValue > i) {
     minValue = i;
-    console.log(minValue);
   } else if (maxValue < i) {
     maxValue = i;
-    console.log(maxValue);
   }
 }
+
+console.log(minValue);
+console.log(maxValue);
