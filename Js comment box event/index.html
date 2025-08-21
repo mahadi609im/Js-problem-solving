@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      .comment {
+         width: 1000px;
+         border: 5px solid green;
+         padding: 8px;
+         background-color: lightgreen;
+      }
+
+      .no-comment {
+         width: 1000px;
+         border: 5px solid crimson;
+         padding: 8px;
+         background-color: lightcoral;
+      }
+   </style>
+</head>
+
+<body>
+   <h3 id="user-data">No user now</h3>
+
+
+   <section style="border: 1px solid skyblue; padding: 8px; margin: 25px;">
+      <h1>Your Comments here</h1>
+      <textarea id="comment-box" cols="50" rows="5"></textarea>
+      <button id="comment-btn" style="padding: 10px 26px; font-weight: bold;">comment</button>
+
+      <div id="comments-container">
+         <p id="no-comment" class="no-comment comment">No Comment here</p>
+      </div>
+
+   </section>
+
+   <script src="main.js"></script>
+</body>
+
+</html>
